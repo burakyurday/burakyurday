@@ -1,2 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="Public projects snapshot: 4 repositories, 3 primary languages. JavaScript 2, Rust 1, Java 1.">
-<rect width="960" height="220" rx="12" fill="#15171B"/><g font-family="Arial,Helvetica,sans-serif"><text x="25" y="32" font-size="13" font-weight="700" letter-spacing="1.7" fill="#FF6537">PUBLIC REPOSITORY SNAPSHOT</text><text x="935" y="32" text-anchor="end" font-size="12" fill="#A4A9B3">12 NOV 2026</text><path d="M25 48H935M378 65V193" stroke="#383C44"/><text x="25" y="111" font-size="54" font-weight="700" fill="#F7F5F0">04</text><text x="25" y="137" font-size="14" fill="#B8BBC3">Public project repos</text><text x="201" y="111" font-size="54" font-weight="700" fill="#F7F5F0">03</text><text x="201" y="137" font-size="14" fill="#B8BBC3">Primary languages</text><text x="25" y="180" font-size="12" fill="#8F95A0">Profile repository excluded</text><text x="404" y="76" font-size="13" font-weight="700" fill="#F7F5F0">PRIMARY LANGUAGE BY REPOSITORY</text><rect x="404" y="93" width="531" height="13" rx="6" fill="#373B43"/><path d="M410 93H669.5V106H410Q404 106 404 100Q404 93 410 93" fill="#F1E05A"/><rect x="669.5" y="93" width="132.75" height="13" fill="#DEA584"/><path d="M802.25 93H929Q935 93 935 100Q935 106 929 106H802.25Z" fill="#B07219"/><circle cx="409" cy="128" r="5" fill="#F1E05A"/><text x="422" y="133" font-size="14" fill="#F7F5F0">JavaScript · 2</text><circle cx="595" cy="128" r="5" fill="#DEA584"/><text x="608" y="133" font-size="14" fill="#F7F5F0">Rust · 1</text><circle cx="747" cy="128" r="5" fill="#B07219"/><text x="760" y="133" font-size="14" fill="#F7F5F0">Java · 1</text><text x="404" y="180" font-size="12" fill="#8F95A0">Counts of repositories, not lines of code or proficiency.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="Public repositories: 4; primary languages: 3">
+<rect width="960" height="220" rx="12" fill="#15171B"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="25" y="32" font-size="13" font-weight="700" letter-spacing="1.7" fill="#FF6537">PUBLIC REPOSITORY OVERVIEW</text>
+<text x="935" y="32" text-anchor="end" font-size="12" fill="#A4A9B3">GITHUB / PUBLIC DATA</text>
+<path d="M25 48H935M378 65V193" stroke="#383C44"/>
+<text x="25" y="111" font-size="54" font-weight="700" fill="#F7F5F0">04</text>
+<text x="25" y="137" font-size="14" fill="#B8BBC3">Public project repos</text>
+<text x="201" y="111" font-size="54" font-weight="700" fill="#F7F5F0">03</text>
+<text x="201" y="137" font-size="14" fill="#B8BBC3">Primary languages</text>
+<text x="25" y="180" font-size="12" fill="#8F95A0">Profile and forks excluded</text>
+<text x="404" y="76" font-size="13" font-weight="700" fill="#F7F5F0">PRIMARY LANGUAGE BY REPOSITORY</text>
+<rect x="404" y="93" width="531" height="13" rx="6" fill="#373B43"/>
+<clipPath id="bar"><rect x="404" y="93" width="531" height="13" rx="6"/></clipPath>
+<g clip-path="url(#bar)"><rect x="404.00" y="93" width="265.50" height="13" fill="#F1E05A"/><rect x="669.50" y="93" width="132.75" height="13" fill="#B07219"/><rect x="802.25" y="93" width="132.75" height="13" fill="#DEA584"/></g>
+<circle cx="409" cy="128" r="5" fill="#F1E05A"/><text x="421" y="132" font-size="13" fill="#F7F5F0">JavaScript · 2</text><circle cx="587" cy="128" r="5" fill="#B07219"/><text x="599" y="132" font-size="13" fill="#F7F5F0">Java · 1</text><circle cx="765" cy="128" r="5" fill="#DEA584"/><text x="777" y="132" font-size="13" fill="#F7F5F0">Rust · 1</text>
+<text x="404" y="193" font-size="12" fill="#8F95A0">Repository counts, not lines of code or proficiency.</text>
+</g></svg>
