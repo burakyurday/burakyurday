@@ -1,0 +1,48 @@
+name: GitHub Metrics
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/metrics.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      - name: Check configuration
+        if: env.METRICS_TOKEN == ''
+        run: echo "::notice::Add the METRICS_TOKEN repository secret to enable live Metrics."
+      - name: Generate GitHub activity and language metrics
+        if: env.METRICS_TOKEN != ''
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
+          user: burakyurday
+          filename: assets/github-metrics.svg
+          committer_branch: main
+          base: activity, repositories
+          config_timezone: Europe/Istanbul
+          config_display: large
+          config_animations: no
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_skipped: burakyurday/burakyurday
+          plugin_languages_details: percentage
+          plugins_errors_fatal: yes
+          output_condition: success
+          committer_message: 'chore: refresh GitHub metrics [skip ci]'
