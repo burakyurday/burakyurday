@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
+<title id="title">Burak Yurday — Creative Developer</title><desc id="desc">Editorial black and orange portfolio banner with bold typography and a modular graphic.</desc>
+<rect width="1000" height="380" fill="#111111"/>
+<path d="M0 59H1000M0 321H1000M692 0V380" stroke="#393939" stroke-width="1"/>
+<g fill="#bdbdb7" font-family="Arial,Helvetica,sans-serif" font-weight="600" font-size="14" letter-spacing="2"><text x="35" y="36">BURAK YURDAY / PORTFOLIO</text><text x="662" y="36" text-anchor="end">DESIGN × CODE</text></g>
+<text x="32" y="155" font-family="Arial,Helvetica,sans-serif" font-size="99" font-weight="900" letter-spacing="-7" fill="#F4F1E9">BURAK</text>
+<text x="32" y="248" font-family="Arial,Helvetica,sans-serif" font-size="99" font-weight="900" letter-spacing="-7" fill="#F4F1E9">YURDAY.</text>
+<text x="36" y="293" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" fill="#C7C7BF" letter-spacing="1.7">CREATIVE DEVELOPER / GRAPHIC DESIGNER</text>
+<rect x="693" y="60" width="307" height="261" fill="#FF5B25"/>
+<g fill="#111111"><path d="M737 95h91v91h-91zM865 95h91v91h-91zM737 194h91v91h-91z"/><path d="M865 194h91v91h-91z" fill="none" stroke="#111111" stroke-width="2"/><path d="M865 194h91v91z"/><circle cx="910.5" cy="239.5" r="19" fill="#FF5B25"/></g>
+<g fill="#F4F1E9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" letter-spacing="1.5"><text x="35" y="356">FOUNDER / MUTFAK AJANS</text><text x="965" y="356" text-anchor="end">INDEPENDENT CREATIVE WORK</text></g>
+</svg>
