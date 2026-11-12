@@ -13,7 +13,7 @@ I'm a creative developer and graphic designer working at the intersection of vis
 
 ## Selected projects
 
-| [Mutfak Sync ↗](https://github.com/burakyurday/mutfak-drive-yedekleme) | [SOS Bark ↗](https://github.com/burakyurday/sos-bark) |
+| [Mutfak Sync ↗](https://github.com/burakyurday/mutfak-sync) | [SOS Bark ↗](https://github.com/burakyurday/sos-bark) |
 | :--- | :--- |
 | Cross-platform desktop backup for creative teams. One-way Google Drive synchronization with folder preservation. | Android-to-iPhone SOS notification prototype using Bark. |
 | `Rust` `Tauri` `React` `TypeScript` | `Java` `Android` `Gradle` |
